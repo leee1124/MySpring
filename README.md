@@ -21,21 +21,27 @@
 
 ## 회원 도메인 설계
 ### 회원 도메인 협력 관계
-
+![image](https://github.com/leee1124/MySpring/assets/80409890/17c0ae8e-f88a-4fbb-b9db-0f83a4059d0a)
 
 ### 회원 클래스 다이어그램
-
-
+![image](https://github.com/leee1124/MySpring/assets/80409890/ca012b29-5846-4625-8ca2-e07f3238ad45)
 
 ### 회원 객체 다이어그램
+![image](https://github.com/leee1124/MySpring/assets/80409890/2adce0d1-32d3-491f-a044-44fbc6231763)
+
 
 ## 주문 할인과 도메인 설계
 ### 주문 도메인 협력, 역할, 책임
+![image](https://github.com/leee1124/MySpring/assets/80409890/a7d28535-ab81-4452-94c2-221f673aa3a0)
 
 ### 주문 도메인 전체
+![image](https://github.com/leee1124/MySpring/assets/80409890/ec9cff71-a212-4dd1-bd0b-3f1aedede924)
 
 ### 주문 도메인 클래스 다이어그램
+![image](https://github.com/leee1124/MySpring/assets/80409890/d6f78109-0493-4671-b824-257aab02ed47)
 
 ### 주문 도메인 객체 다이어그램1
+![image](https://github.com/leee1124/MySpring/assets/80409890/6a2ad463-b418-4ede-a932-d713b048848f)
 
 ### 주문 도메인 객체 다이어그램2
+![image](https://github.com/leee1124/MySpring/assets/80409890/fc2a313a-aeee-43ff-a4fc-056e426354a1)
