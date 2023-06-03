@@ -1,10 +1,15 @@
 ### AppConfig 적용 클래스 다이어그램
+![image](https://github.com/leee1124/MySpring/assets/80409890/9c621bf6-0e7b-4431-977e-d056f67375bb)
 
 ### 회원 객체 인스턴스 다이어그램
+![image](https://github.com/leee1124/MySpring/assets/80409890/7c5aae33-032a-4b7b-a436-3f354fa0d8e1)
 
 ### 사용과 구성의 분리
+![image](https://github.com/leee1124/MySpring/assets/80409890/e9a47f20-91fc-44c6-9bbc-aa694d516c0c)
 
 ### 할인 정책의 변경
+![image](https://github.com/leee1124/MySpring/assets/80409890/02b1bc8d-0077-43e8-b495-98f821fda319)
+
 
 ## 좋은 객체 지향 설계의 5가지 원칙 적용
 ### SRP(단일 책임 원칙)
