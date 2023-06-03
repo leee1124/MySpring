@@ -1,9 +1,9 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1;
 
-import MySpringStudy.core.member.v1.Grade;
-import MySpringStudy.core.member.v1.Member;
-import MySpringStudy.core.member.v1.MemberService;
-import MySpringStudy.core.member.v1.MemberServiceImpl;
+import MySpringStudy.core.v1.member.Grade;
+import MySpringStudy.core.v1.member.Member;
+import MySpringStudy.core.v1.member.MemberService;
+import MySpringStudy.core.v1.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

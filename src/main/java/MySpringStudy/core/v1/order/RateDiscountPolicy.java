@@ -1,6 +1,10 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1.order;
 
-public class RateDiscountPolicy implements DiscountPolicy{
+import MySpringStudy.core.v1.discount.DiscountPolicy;
+import MySpringStudy.core.v1.member.Grade;
+import MySpringStudy.core.v1.member.Member;
+
+public class RateDiscountPolicy implements DiscountPolicy {
     private int discountPercent = 10; //10% 할인
     @Override
     public int discount(Member member, int price) {

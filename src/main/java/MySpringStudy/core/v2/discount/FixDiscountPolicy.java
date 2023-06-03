@@ -1,6 +1,9 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v2.discount;
 
-public class FixDiscountPolicy implements DiscountPolicy{
+import MySpringStudy.core.v2.member.Grade;
+import MySpringStudy.core.v2.member.Member;
+
+public class FixDiscountPolicy implements DiscountPolicy {
     private final int discountFixAmount = 1000; // 1000원 할인
 
 

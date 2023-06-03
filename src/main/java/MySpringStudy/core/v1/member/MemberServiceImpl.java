@@ -1,6 +1,6 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1.member;
 
-public class MemberServiceImpl implements MemberService{
+public class MemberServiceImpl implements MemberService {
     /**
      * OCP와 DIP를 위반함 => 의존관계가 인터페이스 뿐만 아니라 구현까지 모두 의존함
      */

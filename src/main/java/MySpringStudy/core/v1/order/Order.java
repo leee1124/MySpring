@@ -1,4 +1,4 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1.order;
 
 public class Order {
     private Long memberId;

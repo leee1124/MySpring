@@ -1,4 +1,10 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1.order;
+
+import MySpringStudy.core.v1.discount.DiscountPolicy;
+import MySpringStudy.core.v1.discount.FixDiscountPolicy;
+import MySpringStudy.core.v1.member.Member;
+import MySpringStudy.core.v1.member.MemberRepository;
+import MySpringStudy.core.v1.member.MemoryMemberRepository;
 
 /**
  * 주문 생성 요청이 오면, 회원 정보를 조회하고, 할인 정책을 적용한 다음 주문 객체를 생성해서 반환한다.

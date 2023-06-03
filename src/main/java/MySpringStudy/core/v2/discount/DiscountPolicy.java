@@ -1,4 +1,6 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v2.discount;
+
+import MySpringStudy.core.v2.member.Member;
 
 public interface DiscountPolicy {
     /**

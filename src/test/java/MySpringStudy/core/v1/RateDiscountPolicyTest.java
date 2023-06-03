@@ -1,10 +1,12 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1;
 
+import MySpringStudy.core.v1.discount.DiscountPolicy;
+import MySpringStudy.core.v1.member.Grade;
+import MySpringStudy.core.v1.member.Member;
+import MySpringStudy.core.v1.order.RateDiscountPolicy;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class RateDiscountPolicyTest {
     DiscountPolicy discountPolicy = new RateDiscountPolicy();

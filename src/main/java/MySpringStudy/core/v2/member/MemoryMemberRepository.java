@@ -1,9 +1,9 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v2.member;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class MemoryMemberRepository implements MemberRepository{
+public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new ConcurrentHashMap<>();
     //HashMap은 동시성 이슈가 가능함 -> ConcurrentHashMap
 

@@ -1,4 +1,4 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v2.member;
 
 public class Member{
     private Long id;

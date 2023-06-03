@@ -1,9 +1,14 @@
-package MySpringStudy.core.member.v1;
+package MySpringStudy.core.v1;
 
+import MySpringStudy.core.v1.member.Grade;
+import MySpringStudy.core.v1.member.Member;
+import MySpringStudy.core.v1.member.MemberService;
+import MySpringStudy.core.v1.member.MemberServiceImpl;
+import MySpringStudy.core.v1.order.Order;
+import MySpringStudy.core.v1.order.OrderService;
+import MySpringStudy.core.v1.order.OrderServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class OrderServiceImplTest {
     MemberService memberService = new MemberServiceImpl();
