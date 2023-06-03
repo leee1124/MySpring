@@ -1,8 +1,8 @@
 ### 기대했던 의존 관계
-![image](https://github.com/leee1124/MySpring/assets/80409890/5b5ca1b9-be7a-43cb-9694-2cd88bff563c)
+![image](https://github.com/leee1124/MySpring/assets/80409890/a8514d39-451d-43db-9653-992add574917)
 
 ### 실제 의존 관계
-![image](https://github.com/leee1124/MySpring/assets/80409890/14ee8d28-0c63-452e-8f27-6b105cb8112b)
+![image](https://github.com/leee1124/MySpring/assets/80409890/9069b309-b7b3-4962-bc16-9515374d4dc8)
 
 
 ## 잘한 점
