@@ -1,6 +1,7 @@
-package MySpringStudy.core.v3;
+package MySpringStudy.core.v3.beanfind;
 
 
+import MySpringStudy.core.v3.AppConfig;
 import MySpringStudy.core.v3.member.MemberService;
 import MySpringStudy.core.v3.member.MemberServiceImpl;
 import org.junit.jupiter.api.Assertions;
