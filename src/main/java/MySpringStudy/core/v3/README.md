@@ -27,6 +27,8 @@
 * 스프링 컨테이너는 설정 정보(AppConfig)를 참고해서 의존관계를 주입한다.
 
 ## BeanFactory와 ApplicationContext
+![image](https://github.com/leee1124/MySpring/assets/80409890/70cafc59-854e-4839-869d-7688f22049e6)
+
 * BeanFactory
 * * 스프링 컨테이너의 최상위 인터페이스이다.
 * * 스프링 빈을 관리하고 조회하는 역할을 담당한다.
@@ -35,6 +37,13 @@
 * ApplicationContext
 * * BeanFactory 기능을 모두 상속받아서 제공한다.
 * * BeanFactory에서 제공하는 기능들 이외에도 메시지 소스를 활용한 국제화기능, 환경변수, 애플리케이션 이벤트, 편리한 리소스 조회 등 다양한 부가기능을 제공한다.
+
+### ApplicationContext가 제공하는 부가기능
+![image](https://github.com/leee1124/MySpring/assets/80409890/4abaa516-6f86-4b43-ac90-d229484f744e)
+* 메시지 소스를 활용한 국제화기능: ex) 한국에서 들어오면 한국어로 출력, 영어권에서 들어오면 영어로 출력
+* 환경변수: 로컬, 개발, 운영 등을 구분해서 처리
+* 애플리케이션 이벤트: 이벤트를 발행하고 구독하는 모델을 편리하게 지원
+* 편리한 리소스 조회: 파일, 클래스패스, 외부 등에서 리소스를 편리하게 조회
 
 ## 요약
 * ApplicationContext는 BeanFactory의 기능을 상속받는다.
