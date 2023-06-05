@@ -49,12 +49,16 @@
 * 최근에는 많이 사용하지 않지만 XML 기반의 설정도 사용할 수 있다.(우리회사처럼)
 
 ## 스프링 빈 설정 메타 정보 - BeanDefinition
+![image](https://github.com/leee1124/MySpring/assets/80409890/0fcc5694-d9a2-401d-be4f-e2852d01a5ce)
+
 * XML, 자바 코드 등을 읽어서 BeanDefinition을 만든다.
 * 스프링 컨테이너는 xml인지 자바 코드인지 몰라도 되고, BeanDefinition만 알면 된다.
 * =>역할과 구현을 개념적으로 나눈 것
 * BeanDefinition을 빈 설정 메타정보라고 하는데, <bean> @Bean당 각각 하나의 메타 정보가 생성된다.
 * 스프링 컨테이너는 메타정보를 기반으로 스프링 빈을 생성한다.
 
+ ![image](https://github.com/leee1124/MySpring/assets/80409890/b1dd7cd4-1732-4ed0-abfb-8dd250758856)
+  
 * AnnotationConfigApplicationContext는 AnnotatedBeanDefinitionReader를 사용해서 AppConfig.class를 읽고 BeanDefinition을 생성한다.
 * GenericXmlConfigApplicationContext는 XmlBeanDefinitionReader를 사용해서 appConfig.xml를 읽고 BeanDefinition을 생성한다.
 * 즉, 새로운 형식의 설정정보가 추가되면 xxxConfigApplicationContext는 xxxBeanDefinitionReader를 만들어서 BeanDefinition을 생성하면 된다.
