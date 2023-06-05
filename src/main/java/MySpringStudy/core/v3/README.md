@@ -45,8 +45,33 @@
 * 애플리케이션 이벤트: 이벤트를 발행하고 구독하는 모델을 편리하게 지원
 * 편리한 리소스 조회: 파일, 클래스패스, 외부 등에서 리소스를 편리하게 조회
 
+## XML을 활용한 설정
+* 최근에는 많이 사용하지 않지만 XML 기반의 설정도 사용할 수 있다.(우리회사처럼)
+
+## 스프링 빈 설정 메타 정보 - BeanDefinition
+* XML, 자바 코드 등을 읽어서 BeanDefinition을 만든다.
+* 스프링 컨테이너는 xml인지 자바 코드인지 몰라도 되고, BeanDefinition만 알면 된다.
+* =>역할과 구현을 개념적으로 나눈 것
+* BeanDefinition을 빈 설정 메타정보라고 하는데, <bean> @Bean당 각각 하나의 메타 정보가 생성된다.
+* 스프링 컨테이너는 메타정보를 기반으로 스프링 빈을 생성한다.
+
+* AnnotationConfigApplicationContext는 AnnotatedBeanDefinitionReader를 사용해서 AppConfig.class를 읽고 BeanDefinition을 생성한다.
+* GenericXmlConfigApplicationContext는 XmlBeanDefinitionReader를 사용해서 appConfig.xml를 읽고 BeanDefinition을 생성한다.
+* 즉, 새로운 형식의 설정정보가 추가되면 xxxConfigApplicationContext는 xxxBeanDefinitionReader를 만들어서 BeanDefinition을 생성하면 된다.
+
+## BeanDefinition 정보
+* BeanClassName: 생성할 빈의 클래스 명(자바 설정 처럼 팩토리 역할의 빈을 사용하면 없음)
+* factoryBeanName: 팩토리 역할의 빈을 사용할 경우 이름, 예) appConfig
+* factoryMethodName: 빈을 생성할 팩토리 메서드 지정, 예) memberService
+* Scope: 싱글톤(기본값)
+* lazyInit: 스프링 컨테이너를 생성할 때 빈을 생성하는 것이 아니라, 실제 빈을 사용할 때 까지 최대한 생성을 지연처리 하는지 여부
+* InitMethodName: 빈을 생성하고, 의존관계를 적용한 뒤에 호출되는 초기화 메서드 명
+* DestroyMethodName: 빈의 생명주기가 끝나서 제거하기 직전에 호출되는 메서드 명
+* Constructor arguments, Properties: 의존관계 주입에서 사용한다. (자바 설정 처럼 팩토리 역할의 빈을 사용하면 없음)
+
 ## 요약
 * ApplicationContext는 BeanFactory의 기능을 상속받는다.
 * ApplicationContext는 빈 관리기능 + 부가기능을 제공한다.
 * 일반적으로 BeanFactory에서 제공하는 기능과 더불어 부가기능을 제공하는 ApplicationContext를 사용한다.
 * BeanFactory나 ApplicationContext를 스프링 컨테이너라고 한다.
+* BeanDefinition을 직접 생성해서 스프링 컨테이너에 등록할 수 도 있다. 
