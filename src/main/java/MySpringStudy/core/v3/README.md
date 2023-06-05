@@ -25,3 +25,19 @@
 3. 스프링 빈 의존관계 설정 준비
 4. 스프링 빈 의존관계 설정 완료
 * 스프링 컨테이너는 설정 정보(AppConfig)를 참고해서 의존관계를 주입한다.
+
+## BeanFactory와 ApplicationContext
+* BeanFactory
+* * 스프링 컨테이너의 최상위 인터페이스이다.
+* * 스프링 빈을 관리하고 조회하는 역할을 담당한다.
+* * getBean()을 제공한다.
+
+* ApplicationContext
+* * BeanFactory 기능을 모두 상속받아서 제공한다.
+* * BeanFactory에서 제공하는 기능들 이외에도 메시지 소스를 활용한 국제화기능, 환경변수, 애플리케이션 이벤트, 편리한 리소스 조회 등 다양한 부가기능을 제공한다.
+
+## 요약
+* ApplicationContext는 BeanFactory의 기능을 상속받는다.
+* ApplicationContext는 빈 관리기능 + 부가기능을 제공한다.
+* 일반적으로 BeanFactory에서 제공하는 기능과 더불어 부가기능을 제공하는 ApplicationContext를 사용한다.
+* BeanFactory나 ApplicationContext를 스프링 컨테이너라고 한다.
