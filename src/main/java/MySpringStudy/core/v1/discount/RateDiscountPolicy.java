@@ -1,8 +1,8 @@
-package MySpringStudy.core.v2.order;
+package MySpringStudy.core.v1.discount;
 
-import MySpringStudy.core.v2.discount.DiscountPolicy;
-import MySpringStudy.core.v2.member.Grade;
-import MySpringStudy.core.v2.member.Member;
+import MySpringStudy.core.v1.discount.DiscountPolicy;
+import MySpringStudy.core.v1.member.Grade;
+import MySpringStudy.core.v1.member.Member;
 
 public class RateDiscountPolicy implements DiscountPolicy {
     private int discountPercent = 10; //10% 할인

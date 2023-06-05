@@ -1,4 +1,4 @@
-package MySpringStudy.core.v3.order;
+package MySpringStudy.core.v3.discount;
 
 import MySpringStudy.core.v3.discount.DiscountPolicy;
 import MySpringStudy.core.v3.member.Grade;
