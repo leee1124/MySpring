@@ -2,7 +2,7 @@ package MySpringStudy.core.v3.beanfind;
 
 import MySpringStudy.core.v3.discount.DiscountPolicy;
 import MySpringStudy.core.v3.discount.FixDiscountPolicy;
-import MySpringStudy.core.v3.order.RateDiscountPolicy;
+import MySpringStudy.core.v3.discount.RateDiscountPolicy;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.DisplayName;

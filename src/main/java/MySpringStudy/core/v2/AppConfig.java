@@ -1,14 +1,13 @@
 package MySpringStudy.core.v2;
 
 import MySpringStudy.core.v2.discount.DiscountPolicy;
-import MySpringStudy.core.v2.discount.FixDiscountPolicy;
 import MySpringStudy.core.v2.member.MemberRepository;
 import MySpringStudy.core.v2.member.MemoryMemberRepository;
 import MySpringStudy.core.v2.order.OrderService;
 import MySpringStudy.core.v2.member.MemberService;
 import MySpringStudy.core.v2.member.MemberServiceImpl;
 import MySpringStudy.core.v2.order.OrderServiceImpl;
-import MySpringStudy.core.v2.order.RateDiscountPolicy;
+import MySpringStudy.core.v2.discount.RateDiscountPolicy;
 
 
 /**

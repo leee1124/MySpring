@@ -1,13 +1,13 @@
-package MySpringStudy.core.v3;
+package MySpringStudy.core.v4;
 
-import MySpringStudy.core.v3.discount.DiscountPolicy;
-import MySpringStudy.core.v3.member.MemberRepository;
-import MySpringStudy.core.v3.member.MemberService;
-import MySpringStudy.core.v3.member.MemberServiceImpl;
-import MySpringStudy.core.v3.member.MemoryMemberRepository;
-import MySpringStudy.core.v3.order.OrderService;
-import MySpringStudy.core.v3.order.OrderServiceImpl;
-import MySpringStudy.core.v3.discount.RateDiscountPolicy;
+import MySpringStudy.core.v4.discount.DiscountPolicy;
+import MySpringStudy.core.v4.member.MemberRepository;
+import MySpringStudy.core.v4.member.MemberService;
+import MySpringStudy.core.v4.member.MemberServiceImpl;
+import MySpringStudy.core.v4.member.MemoryMemberRepository;
+import MySpringStudy.core.v4.order.OrderService;
+import MySpringStudy.core.v4.order.OrderServiceImpl;
+import MySpringStudy.core.v4.discount.RateDiscountPolicy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
