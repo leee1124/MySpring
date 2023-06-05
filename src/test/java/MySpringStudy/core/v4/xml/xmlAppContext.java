@@ -1,6 +1,6 @@
-package MySpringStudy.core.xml;
+package MySpringStudy.core.v4.xml;
 
-import MySpringStudy.core.v4.member.MemberService;
+import MySpringStudy.core.v3.member.MemberService;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;

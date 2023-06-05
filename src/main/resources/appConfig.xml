@@ -2,13 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean id = "memberService" class="MySpringStudy.core.v4.member.MemberServiceImpl">
+<bean id = "memberService" class="MySpringStudy.core.v3.member.MemberServiceImpl">
     <constructor-arg name="memberRepository" ref="memberRepository"></constructor-arg>
 </bean>
-    <bean id="memberRepository" class="MySpringStudy.core.v4.member.MemoryMemberRepository"></bean>
-    <bean id="orderService" class="MySpringStudy.core.v4.order.OrderServiceImpl">
+    <bean id="memberRepository" class="MySpringStudy.core.v3.member.MemoryMemberRepository"></bean>
+    <bean id="orderService" class="MySpringStudy.core.v3.order.OrderServiceImpl">
         <constructor-arg name="memberRepository" ref="memberRepository"></constructor-arg>
         <constructor-arg name="discountPolicy" ref="discountPolicy"></constructor-arg>
     </bean>
-    <bean id="discountPolicy" class="MySpringStudy.core.v4.discount.RateDiscountPolicy"></bean>
+    <bean id="discountPolicy" class="MySpringStudy.core.v3.discount.RateDiscountPolicy"></bean>
 </beans>
