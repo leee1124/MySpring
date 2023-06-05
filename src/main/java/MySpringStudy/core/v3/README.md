@@ -57,7 +57,7 @@
 * BeanDefinition을 빈 설정 메타정보라고 하는데, <bean> @Bean당 각각 하나의 메타 정보가 생성된다.
 * 스프링 컨테이너는 메타정보를 기반으로 스프링 빈을 생성한다.
 
- ![image](https://github.com/leee1124/MySpring/assets/80409890/b1dd7cd4-1732-4ed0-abfb-8dd250758856)
+![image](https://github.com/leee1124/MySpring/assets/80409890/3283239a-d960-4035-8d51-7c6ad1628e24)
   
 * AnnotationConfigApplicationContext는 AnnotatedBeanDefinitionReader를 사용해서 AppConfig.class를 읽고 BeanDefinition을 생성한다.
 * GenericXmlConfigApplicationContext는 XmlBeanDefinitionReader를 사용해서 appConfig.xml를 읽고 BeanDefinition을 생성한다.
