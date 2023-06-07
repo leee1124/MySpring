@@ -1,4 +1,4 @@
-package MySpringStudy.core.v4.xml;
+package MySpringStudy.core.v3.xml;
 
 import MySpringStudy.core.v3.member.MemberService;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package MySpringStudy.core.v4.beanDefinition;
+package MySpringStudy.core.v3.beanDefinition;
 
 import MySpringStudy.core.v3.AppConfig;
 import org.junit.jupiter.api.DisplayName;
